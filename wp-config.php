@@ -16,7 +16,7 @@
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', 'D:\webapp\wordpress\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'wordpress');
 
 /** MySQL 数据库用户名 */
@@ -26,7 +26,7 @@ define('DB_USER', "uvoreCjOP0UZfzI7");
 define('DB_PASSWORD', "ppQVRoyO3xaBeXCG8");
 
 /** MySQL 主机 */
-define('DB_HOST', "tcp://10.10.26.58:3306");
+define('DB_HOST', "10.10.26.58");
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
